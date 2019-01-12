@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(253, 253, 253);
+}
+
+#main{
+    margin: 0 auto;
+    width: 790px;
+    height: 800px;
+    border:1px solid white;
+}
+div[class^='div']{
+    height: 160px;
+    width: 130px;
+    position: relative;
+    border-radius: 50%;
+    border: 0px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div > span{
+    margin-top: 5px;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+
+}
+.div1{
+    float: left;
+    margin-top: 10%;
+    background-color: rgb(254, 151, 0);
+}
+.div2{
+    float: left;
+    margin-left: 20%;
+    background-color: rgb(0, 178, 118);
+}
+.div3{
+    float: left;
+    margin-left:20%;
+    margin-top: 10%;
+    background-color: rgb(228, 38, 79);
+}
+#backBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.div4{
+    float: none;
+    margin-top:59%;
+    background-color: rgb(171, 107, 229);
+}
+.div5{
+    float: left;
+    margin-top: 0;
+    margin-left: 40%;
+    background-color: rgb(113, 150, 255);
+}
+.div6{
+    margin-top: -40%;
+    float: left;
+    margin-left: -19%;
+    background-color: rgb(254, 151, 0);
+}
+.div7{
+    float: left;
+    margin-left: 75%;
+    margin-top: -43%;
+    background-color: rgb(2, 143, 148);
+}
